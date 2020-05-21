@@ -1,0 +1,33 @@
+.footer-item {
+  padding-top: $gap * 3;
+  background-color: $color-dark;
+
+  &__list {
+    color: $color-light;
+
+    ul {
+      padding-left: 0;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      color: darken($color-gray, 40%);
+
+      &:hover {
+        color: $color-light;
+      }
+    }
+  }
+}
+
+.footer-copyright {
+  strong {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: $color-light;
+  }
+}
