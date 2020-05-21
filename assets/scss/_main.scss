@@ -62,6 +62,9 @@
     position: relative;
 
     &:hover {
+      h3 > a {
+        color: $color-accent;
+      }
       .news-films-item__thumbnail {
         background-color: $color-accent;
       }
