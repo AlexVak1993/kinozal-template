@@ -1,0 +1,34 @@
+.film-video,
+.film-description,
+.film-comments,
+.film-left-comment {
+  position: relative;
+  overflow: hidden;
+
+  &__caption {
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  &__fragment {
+    font-size: 1.2rem;
+
+    &:not(:last-of-type) {
+      margin-right: $gap;
+    }
+  }
+  &__badge {
+    font-size: 0.8em;
+  }
+  &__glyph {
+    margin-right: 5px;
+  }
+}
+ .film-left-comment {
+   textarea {
+     margin-bottom: $gap;
+   }
+   &__btn {
+    float: right;
+  }
+ }
