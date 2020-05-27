@@ -12,6 +12,7 @@
   }
   &__fragment {
     font-size: 1.2rem;
+    white-space: nowrap;
 
     &:not(:last-of-type) {
       margin-right: $gap;

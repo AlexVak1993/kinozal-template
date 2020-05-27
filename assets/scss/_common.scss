@@ -9,7 +9,12 @@ body {
 
 h1 {
   @extend %title-head;
-  font-size: 3rem;
+  @include xs-min {
+    font-size: 3rem;
+  };
+  @include xs {
+    font-size: 2rem;
+  }
 
   &::after {
     @extend %bf-af-line;
